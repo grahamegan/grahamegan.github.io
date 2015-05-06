@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Contact Chubbies</title>
+	<link rel="stylesheet" href="CSS/styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(37.797478, -122.402586),
+          zoom: 19,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+</head>
+
+<body>
+	<img src="logo.png" alt="Chubbies Logo">
+	<h1>Contact Chubbies</h1>
+
+	<ul>
+		<li>Phone: <h2>1-844-278-3554<h2></li>
+		<li>Email: <h2>info@chubbiesshorts.com<h2></li>
+		<li>Chubbies Shorts HQ: <h2>430 Pacific Ave, San Francisco, CA 94133</h2></li>
+	</ul>
+	
+	<div id="map-canvas"></div>
+	<hr>
+	
+	<nav>
+		<ul>
+			<li><a href="index.html">About</a></li>
+			<li>Contact</li>
+		</ul>
+	</nav>
+
+</body>
+</html>

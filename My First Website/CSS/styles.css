@@ -1,0 +1,57 @@
+body {
+	max-width: 600px;
+	margin-left: 40px;
+}
+
+ul li {
+	font-family: helvetica;
+	font-weight: bold;
+	color: rgb(50,104,155);
+	list-style: none;
+}
+
+nav ul li {
+	display: inline;
+	padding: 0 8px;
+}
+
+h1 {
+	font-family: helvetica;
+	color: rgb(50,104,155);
+}
+
+p {
+	font-family: georgia;
+	line-height: 1.4;
+	text-align: justify;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	display: inline;
+	font-family: georgia;
+	color: black;
+	font-weight: normal;
+	font-size: 110%;
+}
+
+#map-canvas {
+     width: 500px;
+     height: 400px;
+     margin-left: 40px;
+     border: 5px solid rgb(50,104,155);
+     margin-bottom: 20px
+}
+
+nav img {
+	border: 5px solid rgb(50,104,155);
+	max-width: 590px;
+}
+
+hr {
+
+	border: 2px solid rgb(50,104,155);
+}
