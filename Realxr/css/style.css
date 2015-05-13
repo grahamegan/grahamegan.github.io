@@ -168,6 +168,7 @@ img {
 
 header {
   height: 560px;
+  background-image: url("images/header_bg.jpg");
   background-image: url("https://c2.staticflickr.com/4/3658/3520684397_58f3aa16c0_b.jpg");
 }
 
@@ -176,6 +177,7 @@ header {
 }
 
 .testimonial {
+  background-image: url("images/testimonial_bg.jpg");
   background-image: url("http://mycolorscreen.com/wp-content/uploads/wallpapers_2012/161217/ocean%20water.jpg");
   height: 315px;
   color: white;
